@@ -1,0 +1,38 @@
+Adicioes:
+-Associar as voltas por pista/carro/classe de carro (Pista e Classe de carro, mas indicando o carro com que foi feito). Poder esccolher entre carro + pista ou classe + 
+-Guardar as voltas numa BD, online/offline
+-Forma de visualizar condicoes de pista (bandeiras, tempo, condicoes de pista, etc)
+-Novas medidas de telemetria (steer angle, abs, etc)
+-Adiconar plots novos (gear, tempo/delta, localizar nas voltas invalidas onde invalidou, rpms, localizacao(se possivel, e for util))
+-Adicionar uma aba para o setup utilizado
+-Adicionar uma aba de comentarios onde cada utilizador pode comentar apenas para si o que entender sobre a volta no momento que entender da volta.
+-Alterar o metodo de analise das voltas para ter 2 modos diferentes (comparar voltas escolhidas / comparar todas as voltas (validas/todas), podendo começar com apenas as validas e o utilizador adicionar as
+invalidas que entender)
+-Adicionar comentarios nas voltas de quando foram feitas/ condicoes do carro (dano, desgaste de pneus, combustivel)
+-
+
+Possiveis Adicicoes/Alteracoes:
+-Adicionar um metodo de escolher que plots ver e analisar
+-Adicionar um delta em relacao à melhor volta feita ou a uma escolhida da BD
+
+Bugs:
+-Verificar se o projeto atual esta funcional
+-Mostrar os plots juntos (Subplot)
+-
+
+Devo aprender:
+-Criar uma BD online para partilhar voltas e setups
+-Criar uma UI de uma app para o projeto
+-Ajustar o UI aos programas python 
+
+-Ordem de tarefas:
+-Adicionar sub plots;
+-Alterar o metodo de analise das voltas para ter 2 modos diferentes (comparar voltas escolhidas / comparar todas as voltas (validas/todas))
+-Associar as voltas por pista/carro
+-Novas medidas de telemetria (bandeiras, steer angle, abs(se for quando é ativado), gear, tempo/delta, localizar nas voltas onde invalidou, rpms, localizacao(se possivel, e for util))
+-Nova aba: Forma de obter o setup utilizado e condicoes de pista(Quando foi feita, temperaturas, se foi corrida, treino ou qualy)
+-Guardar as voltas numa BD online/offline
+-Adicionar comentarios nas voltas
+-Fazer o UI
+-Nova aba: Forma de escolher que plots ver
+-

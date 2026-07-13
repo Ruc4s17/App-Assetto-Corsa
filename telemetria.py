@@ -25,13 +25,18 @@ try:
         brake = ac.physics.brake #Feito
         rpm = ac.physics.rpms
         position = ac.graphics.normalizedCarPosition
-
+        steer = ac.physics.steerAngle
+        
         # Tempo relativo
         timestamp = time.time() - start_time
 
         # Verificar validade
         if ac.physics.numberOfTyresOut >= 3:
+            cut_present = 1
             lap_valid = False
+        else:
+            cut_present = 0
+        
 
         # Guardar ponto
         lap_data.append({
@@ -41,7 +46,9 @@ try:
             "throttle": throttle,
             "brake": brake,
             "rpm": rpm,
-            "position": position
+            "position": position,
+            "cut_present": cut_present,
+            "steer": steer
         })
 
         # Detectar nova volta

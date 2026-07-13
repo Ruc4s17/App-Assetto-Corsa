@@ -50,5 +50,5 @@ Devo aprender:
 
 
 
-1. Juntar os Gráficos no mesmo ecrã (Subplots)Nas tuas notas tinhas como bug/tarefa: "Mostrar os plots juntos (Subplot)". Atualmente, o teu comparar_voltas.py abre 3 janelas separadas de matplotlib (uma para Velocidade, uma para Acelerador, outra para Travão). Isto torna a análise muito desconfortável.A nível de Tratamento de Dados, o ideal é usar plt.subplots para criar uma única janela com 3 gráficos empilhados verticalmente, partilhando o mesmo eixo $X$ (a posição na pista).
-2. Substituir o JSON por uma Base de Dados local (SQLite)Esta é a grande viragem do teu projeto de 2.º ano. Nas tuas notas escreveste: "Associar as voltas por pista/carro". Fazer isso em ficheiros JSON soltos vai dar-te imenso trabalho de programação desnecessário. Com SQL, que aprendeste este semestre, resolves isso com uma query simples.Vamos criar uma base de dados local chamada telemetria.db com duas tabelas relacionadas (Chave Estrangeira):Tabela voltas: Guarda o ID, o número da volta, se é válida, a pista e o carro (podes extrair a pista e o carro automaticamente usando o info.static.track e info.static.carModel do teu sim_info.py).Tabela amostras: Guarda os pontos de telemetria (time, speed, rpm, throttle, brake, position) associados ao ID da volta.
+Ordem:
+Substituir os ficheiros json por "litlesql"?
